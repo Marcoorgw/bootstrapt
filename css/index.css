@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'icomoon';
-  src: url("../fonts/icomoon.eot?73vkz9");
-  src: url("../fonts/icomoon.eot?73vkz9#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?73vkz9") format("truetype"), url("../fonts/icomoon.woff?73vkz9") format("woff"), url("../fonts/icomoon.svg?73vkz9#icomoon") format("svg");
+  src: url("../fonts/icon/icomoon.eot?73vkz9");
+  src: url("../fonts/icon/icomoon.eot?73vkz9#iefix") format("embedded-opentype"), url("../fonts/icon/icomoon.ttf?73vkz9") format("truetype"), url("../fonts/icon/icomoon.woff?73vkz9") format("woff"), url("../fonts/icon/icomoon.svg?73vkz9#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block; }
@@ -85,6 +85,34 @@
 .icon-html-five:before {
   content: "\eae4"; }
 
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url(../fonts/Montserrat-Bold.ttf); }
+@font-face {
+  font-family: Montserrat-SemiBoldItalic;
+  src: url(../fonts/Montserrat-SemiBoldItalic.ttf); }
+a:hover {
+  text-decoration: none !important; }
+
+a:focus {
+  border-color: #f41067 !important;
+  box-shadow: none !important;
+  outline: 0px !important;
+  -webkit-appearance: none; }
+
+a {
+  transition: all 320ms ease-in-out;
+  -moz-transition: all 320ms ease-in-out;
+  -ms-transition: all 320ms ease-in-out;
+  -o-transition: all 320ms ease-in-out;
+  -webkit-transition: all 320ms ease-in-out; }
+
+body {
+  background-color: #f4f8fa !important; }
+
+.navbar {
+  background-color: #ffffff; }
+
 .navbar .navbar-toggler:focus {
   text-decoration: none;
   outline: 0;
@@ -96,5 +124,12 @@
 @media (min-width: 992px) {
   .navbar-nav .nav-item a:hover {
     border-bottom: 1px solid #f41067; } }
+.content-section {
+  margin-top: 90px; }
+
+.content-section h4 {
+  font-family: Montserrat-Regular;
+  color: #868686;
+  border-bottom: 1px solid #868686; }
 
 /*# sourceMappingURL=index.css.map */
